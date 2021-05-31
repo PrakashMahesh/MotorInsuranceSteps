@@ -1,0 +1,231 @@
+
+body {
+
+  background-color:#F0E6FF
+  
+  }
+  .WizardHeader{
+    position: relative;
+    width: 100%;
+height: 86px;
+background: transparent linear-gradient(177deg, #4F39B5 0%, #A410BD 100%) 0% 0% no-repeat padding-box;
+border-bottom-left-radius: 35px;
+border-bottom-right-radius: 35px;
+  }
+  .WizardHeaderlogo{
+    position: relative;
+    top:20px;
+    left:4%;
+  }
+  .PolicyHoderImage{
+    position: relative;
+    top:15px;
+    left: 77%;
+
+width: 46px;
+height: 46px;
+
+border: 1px solid #707070;
+opacity: 1;
+
+  }
+  .PolicyHolderNameDispaly{
+    position: relative;
+    top:30px;
+    float: right;
+    right: 7%;
+
+    color:white;
+    
+  }
+.wizard{
+  position: relative;
+  float: left;
+  width: 15%;
+  height:500px;
+}
+.wizardbody{
+  
+ position: relative;
+ float: left;
+ top:100px;
+ left: 40%;
+ 
+width: 41%;
+height: 80%;
+background: transparent linear-gradient(180deg, #4F39B5 0%, #A410BD 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 15px 32px #00000005;
+border-radius: 62px;
+opacity: 1;
+}
+.contentbody{
+  position: relative;
+  float: left;
+  width:85%;
+ 
+
+}
+.car{
+  position: relative;
+  top: 25px;
+left: 15%;
+width: 65px;
+height: 65px;
+margin-bottom: 25px;
+border-radius: 50%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.carimage{
+  position: absolute;
+  top:30%;
+left: 30%;
+width: 28px;
+height: 22px;
+background: transparent  0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.cardone{
+  position: relative;
+  top: 25px;
+left: 18%;
+width: 65px;
+height: 65px;
+margin-bottom: 25px;
+border-radius: 50%;
+background: #8B54C6 0% 0% no-repeat padding-box;
+
+}
+
+.tickmark{
+ 
+ position: absolute;
+  top: 0%;
+left: 65%;
+width: 24px;
+height: 24px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.tickmarknone{
+  display: none;
+  position: absolute;
+  top: 0%;
+left: 65%;
+width: 24px;
+height: 24px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.line{
+  position: relative;
+  top: 7%;
+left: 48%;
+width: 4px;
+height: 25px;
+background-color: #FFFFFF;
+opacity: 1;
+}
+.bg{
+  background: #8B54C6 0% 0% no-repeat padding-box;
+}
+
+.radio-button{
+  border: 0.5px solid #ced4da;
+  border-radius: 2px;
+  padding: 3px;
+}
+.progress {
+	background-color: #d8d8d8;
+	position: relative;
+  top:115px;
+  left:10.1%;
+	margin-top: 15px;
+	height: 5px;
+	width: 79.7%;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+input[type='file'] {
+  color: transparent;  
+}
+.radio-button{
+  border: 0.5px solid #ced4da;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+@media screen and (max-width:480px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+
+  .WizardHeader{
+  
+height: 45px;
+
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+  }
+  .WizardHeaderlogo{
+    position: relative;
+    top:3px;
+    left:4%;
+  }
+  .wizard{
+    position: relative;
+    float: left;
+    width: 15%;
+    height:230px;
+  }
+  .wizardbody{
+   
+   width: 68%;
+   height: 80%;
+  
+   }
+.car{
+ top:13px;
+width: 25px;
+height: 25px;
+margin-bottom: 15px;
+
+}
+.carimage{
+  left: 15%;
+width: 18px;
+height: 12px;
+
+}
+.cardone{
+ 
+width: 25px;
+height: 25px;
+margin-bottom: 15px;
+}
+
+.tickmark{
+ 
+ 
+ width: 14px;
+ height: 14px;
+
+ }
+ .tickmarknone{
+  
+ width: 14px;
+ height: 14px;
+
+
+}
+}

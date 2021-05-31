@@ -1,0 +1,857 @@
+[
+    {
+        "step": "STEP 1/4",
+        "page_label": "About Vehicle",
+        "page_description": "Please fill the following vehicle details for the quote",
+        "fields":[
+            {
+                "layout": "row",
+                "fields":[
+                    {
+                        "field_id": "car_registration_no",
+                        "field_label": "Car Registration No.",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "text_and_button",
+                        "field_value": "",
+                        "button_id": "find_vehicle_details",
+                        "button_label": "Go",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "car_engine_no",
+                        "field_label": "Car Engine No.",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": ""
+                    }  
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "registration_date",
+                        "field_label": "Registration Date",
+                        "field_mandatory": "no",
+                        "field_type": "date",
+                        "field_value": "",
+                        "errors": ""
+                    },
+                    {
+                        "field_id": "chasis_no",
+                        "field_label": "Chasis No.",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": "",
+                        "errors": ""
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_manufacturer",
+                        "field_label": "Car's Manufacturer",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Aston Martin"
+                            },
+                            {
+                                "option_label": "Cadillac"
+                            },
+                            {
+                                "option_label": "Fiat"
+                            },
+                            {
+                                "option_label": "Ford"
+                            },
+                            {
+                                "option_label": "General Motors"
+                            },
+                            {
+                                "option_label": "Jaguar"
+                            },
+                            {
+                                "option_label": "Landrover"
+                            },
+                            {
+                                "option_label": "Mercedes-Benz"
+                            },
+                            {
+                                "option_label": "Porshe"
+                            },
+                            {
+                                "option_label": "Renault"
+                            },
+                            {
+                                "option_label": "Rolls Royce"
+                            },
+                            {
+                                "option_label": "Volksvagen"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "car_model",
+                        "field_label": "Car Model",
+                        "field_mandatory": "no",
+                        "field_type": "select",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Ghost"
+                            },
+                            {
+                                "option_label": "Ghost EVB"
+                            },
+                            {
+                                "option_label": "Phantom Sedan"
+                            },
+                            {
+                                "option_label": "Phantom EVB"
+                            },
+                            {
+                                "option_label": "Phantom Couple Convertible"
+                            },
+                            {
+                                "option_label": "Wraith"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields":[
+                    {
+                        "field_id": "car_manufacture_year",
+                        "field_label": "Car's Manufacture Year",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "2021"
+                            },
+                            {
+                                "option_label": "2020"
+                            },
+                            {
+                                "option_label": "2019"
+                            },
+                            {
+                                "option_label": "2018"
+                            },
+                            {
+                                "option_label": "2017"
+                            },
+                            {
+                                "option_label": "2016"
+                            },
+                            {
+                                "option_label": "2015"
+                            },
+                            {
+                                "option_label": "2014"
+                            },
+                            {
+                                "option_label": "2013"
+                            },
+                            {
+                                "option_label": "2012"
+                            },
+                            {
+                                "option_label": "2011"
+                            },
+                            {
+                                "option_label": "2010"
+                            },
+                            {
+                                "option_label": "2009"
+                            },
+                            {
+                                "option_label": "2008"
+                            },
+                            {
+                                "option_label": "2007"
+                            },
+                            {
+                                "option_label": "2006"
+                            },
+                            {
+                                "option_label": "2005"
+                            },
+                            {
+                                "option_label": "2004"
+                            },
+                            {
+                                "option_label": "2003"
+                            },
+                            {
+                                "option_label": "2002"
+                            },
+                            {
+                                "option_label": "2001"
+                            },
+                            {
+                                "option_label": "2000"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "car_body_type",
+                        "field_label": "Car Body Type",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Hatchback"
+                            },
+                            {
+                                "option_label": "Sedan"
+                            },
+                            {
+                                "option_label": "MUV/SUV"
+                            },
+                            {
+                                "option_label": "Coup"
+                            },
+                            {
+                                "option_label": "Convertible"
+                            },
+                            {
+                                "option_label": "Wagon"
+                            },
+                            {
+                                "option_label": "Van"
+                            }
+                        ]
+                    }      
+                ]
+            },
+            {
+                "layout": "row",
+                "fields":[
+                    {
+                        "field_id": "car_engine_capacity",
+                        "field_label": "Car Engine Capacity",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Option 1"
+                            },
+                            {
+                                "option_label": "Option 2"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "car_transmission_system",
+                        "field_label": "Car Transmission System",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Automatic"
+                            },
+                            {
+                                "option_label": "Manual"
+                            }
+                        ]
+                    }  
+                ]
+            },
+            {
+                "layout": "row",
+                "fields":[
+                    {
+                        "field_id": "car_seating_capacity",
+                        "field_label": "Car Seating Capacity (including Driver)",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "1"
+                            },
+                            {
+                                "option_label": "2"
+                            },
+                            {
+                                "option_label": "3"
+                            },
+                            {
+                                "option_label": "4"
+                            },
+                            {
+                                "option_label": "5"
+                            },
+                            {
+                                "option_label": "6"
+                            },
+                            {
+                                "option_label": "7"
+                            },
+                            {
+                                "option_label": "8"
+                            },
+                            {
+                                "option_label": "9"
+                            },
+                            {
+                                "option_label": "10"
+                            }
+                        ]
+                    },  
+                    {
+                        "field_id": "car_differential_type",
+                        "field_label": "Car Differential Type",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "2 Wheel Drive - Rear Wheel Drive"
+                            },
+                            {
+                                "option_label": "2 Wheel Drive - Front Wheel Drive"
+                            },
+                            {
+                                "option_label": "4 Wheel Drive or AWD"
+                            }
+                        ]
+                    }   
+                ]
+            },
+            {
+                "layout": "row",
+                "fields":[
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Car Drive Type",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Left Hand Drive",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Right Hand Drive",
+                                "option_value": "Right Hand Drive"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "car_fuel_type",
+                        "field_label": "Car Fuel Type",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Petrol"
+                            },
+                            {
+                                "option_label": "Diesel"
+                            },
+                            {
+                                "option_label": "Electric"
+                            },
+                            {
+                                "option_label": "Natural Gas (CNG)"
+                            },
+                            {
+                                "option_label": "Hybrid"
+                            },
+                            {
+                                "option_label": "Hybrid Fuel Cell (FCV)"
+                            },
+                            {
+                                "option_label": "Biodiesel"
+                            }
+                        ]
+                    }    
+                ]
+            },
+            {
+                "layout": "",
+                "fields":[
+                    {
+                        "field_id": "car_estimated_value",
+                        "field_label": "Estimated Car Value",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": ""
+                    }    
+                ]
+            },
+            {
+                "layout": "row",
+                "fields":[
+                    {
+                        "field_id": "car_safety_features",
+                        "field_label": "Safety Features fitted with",
+                        "field_mandatory": "no",
+                        "field_type": "multiple_select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Anti Lock Braking System (ABS)"
+                            },
+                            {
+                                "option_label": "Auto Emergency Braking (AEB)"
+                            },
+                            {
+                                "option_label": "Blind Spot Monitoring"
+                            },
+                            {
+                                "option_label": "Brake Assist"
+                            },
+                            {
+                                "option_label": "Curtain Airbags"
+                            },
+                            {
+                                "option_label": "Engine Immobilizer"
+                            },
+                            {
+                                "option_label": "Electronic Stability Control (ESC)"
+                            },
+                            {
+                                "option_label": "Hill-Start Assistance"
+                            },
+                            {
+                                "option_label": "Lane Departure Warning"
+                            },
+                            {
+                                "option_label": "Pre-collision Safety System"
+                            },
+                            {
+                                "option_label": "Rain-Sensing Windsheild Wipers"
+                            },
+                            {
+                                "option_label": "Stability/Traction Control"
+                            },
+                            {
+                                "option_label": "Tire Pressure Monitoring"
+                            }
+                        ]
+                    },
+                    {
+                        "field_id": "car_security_features",
+                        "field_label": "Security Features fitted with",
+                        "field_mandatory": "no",
+                        "field_type": "multiple_select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Factory Fitted Immobilizer"
+                            },
+                            {
+                                "option_label": "Factory Fitted Alarm"
+                            },
+                            {
+                                "option_label": "Other approved Immobilizer"
+                            },
+                            {
+                                "option_label": "Other approved Alarm"
+                            },
+                            {
+                                "option_label": "Other non-approved Alarm"
+                            },
+                            {
+                                "option_label": "Other non-approved Immobilizer"
+                            },
+                            {
+                                "option_label": "Vehicle Tracker"
+                            },
+                            {
+                                "option_label": "Lane Departure Warning"
+                            },
+                            {
+                                "option_label": "Pre-collision Safety System"
+                            },
+                            {
+                                "option_label": "Rain-Sensing Windsheild Wipers"
+                            },
+                            {
+                                "option_label": "Stability/Traction Control"
+                            },
+                            {
+                                "option_label": "Tire Pressure Monitoring"
+                            }
+                        ]
+                    }   
+                ]
+            },
+            {
+                "layout": "",
+                "fields": [
+                    {
+                        "field_id": "car_modifications",
+                        "field_label": "Any Modifications done in car?",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_id": "car_modifications_yes",
+                                "option_label": "Yes",
+                                "option_value": "Yes"
+                            },
+                            {
+                                "option_id": "car_modifications_no",
+                                "option_label": "No",
+                                "option_value": "No"
+                            }
+                        ],
+                        "yes_options":[
+                            {
+                                "field_id": "accessories",
+                                "field_label": "Accessories",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Interior Changes"
+                                    },
+                                    {
+                                        "option_label": "Rally/Spot lights"
+                                    },
+                                    {
+                                        "option_label": "Roll cage/bars"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "body_modifications",
+                                "field_label": "Body Modifications",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Bull bars"
+                                    },
+                                    {
+                                        "option_label": "Exterior decorative changes"
+                                    },
+                                    {
+                                        "option_label": "Modification due to disability"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "brakes_suspension_steering",
+                                "field_label": "Brakes/Suspension/Steering",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Brakes (Uprated)"
+                                    },
+                                    {
+                                        "option_label": "Suspension lowered (<5 cm)"
+                                    },
+                                    {
+                                        "option_label": "Suspension lowered (5-12.5 cm)"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "engine_transmission",
+                                "field_label": "Engine/Transmission",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Engine Bored-out"
+                                    },
+                                    {
+                                        "option_label": "Engine (Standard replacment)"
+                                    },
+                                    {
+                                        "option_label": "Engine (Non-standard replacment)"
+                                    },
+                                    {
+                                        "option_label": "Engine (Other alterations)"
+                                    },
+                                    {
+                                        "option_label": "Exhaust/Manifold"
+                                    },
+                                    {
+                                        "option_label": "Engine Chip (0-10% inc BHP)"
+                                    },
+                                    {
+                                        "option_label": "Engine Chip (11 - 25% inc BHP)"
+                                    },
+                                    {
+                                        "option_label": "Engine Chip (26%  + inc BHP)"
+                                    },
+                                    {
+                                        "option_label": "Supercharging"
+                                    },
+                                    {
+                                        "option_label": "Turbocharging"
+                                    },
+                                    {
+                                        "option_label": "Transmission changes"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "paintwork_stickers",
+                                "field_label": "Paintwork/Stickers",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Body colouredbumpers"
+                                    },
+                                    {
+                                        "option_label": "Respray (different colour)"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "spoilers_bodykits",
+                                "field_label": "Spoliers/Body Kits",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Bonnet bulge/grill"
+                                    },
+                                    {
+                                        "option_label": "Side skirts/sills"
+                                    },
+                                    {
+                                        "option_label": "Spoiler (Rear)"
+                                    },
+                                    {
+                                        "option_label": "Spoiler/Airdam (Front)"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "wheels_tyres",
+                                "field_label": "Wheels/Tyres",
+                                "field_mandatory": "",
+                                "field_type": "multiple_select",
+                                "field_value": "",
+                                "field_options":[
+                                    {
+                                        "option_label": "Alloy Wheels (Standard, Optional)"
+                                    },
+                                    {
+                                        "option_label": "Alloy Wheels (Non-Standard)"
+                                    },
+                                    {
+                                        "option_label": "Wheel arches"
+                                    }
+                                ]
+                            }
+                              
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields":[
+                    {
+                        "field_id": "n_cap_rating",
+                        "field_label": "Car's N-cap Rating",
+                        "field_mandatory": "no",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_id": "1_star",
+                                "option_label": "1 Star",
+                                "option_value": "1 Star"
+                            },
+                            {
+                                "option_id": "2_star",
+                                "option_label": "2 Star",
+                                "option_value": "2 Star"
+                            },
+                            {
+                                "option_id": "3_star",
+                                "option_label": "3 Star",
+                                "option_value": "3 Star"
+                            },
+                            {
+                                "option_id": "4_star",
+                                "option_label": "4 Star",
+                                "option_value": "4 Star"
+                            },
+                            {
+                                "option_id": "5_star",
+                                "option_label": "5 Star",
+                                "option_value": "5 Star"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "",
+                "fields":[
+                    {
+                        "field_id": "policy_holder_ownership_of_the_car",
+                        "field_label": "Policyholder's ownership type of the Car",
+                        "field_mandatory": "yes",
+                        "field_placeholder": "",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "policy_holder_legal_owner",
+                                "option_label": "Legal Owner",
+                                "option_value": "Legal Owner"
+                            },
+                            {
+                                "option_id": "policy_holder_registered_keeper",
+                                "option_label": "Registered Keeper",
+                                "option_value": "Registered Keeper"
+                            },
+                            {
+                                "option_id": "policy_holder_legal_owner_and_registered_keeper",
+                                "option_label": "Legal Owner and Registered Keeper",
+                                "option_value": "Legal Owner and Registered Keeper"
+                            }
+                        ],
+                        "legal_owner_fields":[
+                            {
+                                "field_id": "relationship_of_the_registered_keeper_of_the_car_with_the_legal_owner",
+                                "field_label": "Relationship of the registered keeper of the Car with the legal owner",
+                                "field_mandatory": "",
+                                "field_type": "select",
+                                "field_value": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Spouse"
+                                    },
+                                    {
+                                        "option_label": "Named driver"
+                                    },
+                                    {
+                                        "option_label": "Child"
+                                    },
+                                    {
+                                        "option_label": "Common law partner"
+                                    },
+                                    {
+                                        "option_label": "Civil Partner"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "reistered_keeper_name",
+                                "field_label": "Registered Keeper Name",
+                                "field_mandatory": "",
+                                "field_placeholder": "",
+                                "field_type": "text",
+                                "field_value": ""
+                            },
+                            {
+                                "field_id": "legal_owner_be_the_policyholder",
+                                "field_label": "Will the Legal Owner be the policyholder?",
+                                "field_mandatory": "",
+                                "field_type": "radio",
+                                "field_value": "",
+                                "errors": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Yes, I will be the Policy Holder"
+                                    },
+                                    {
+                                        "option_label": "No, the Registered Keeper will be the Policy Holder"
+                                    }
+                                ]
+                            }   
+                        ],
+                        "registered_keeper_fields":[
+                            {
+                                "field_id": "relationship_of_the_legal_owner_of_the_car_with_the_registered_keeper",
+                                "field_label": "Relationship of the legal owner of the Car with the registered keeper",
+                                "field_mandatory": "",
+                                "field_type": "select",
+                                "field_value": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Spouse"
+                                    },
+                                    {
+                                        "option_label": "Named driver"
+                                    },
+                                    {
+                                        "option_label": "Child"
+                                    },
+                                    {
+                                        "option_label": "Common law partner"
+                                    },
+                                    {
+                                        "option_label": "Civil Partner"
+                                    }
+                                ]
+                            },
+                            {
+                                "field_id": "legal_owner_name",
+                                "field_label": "Legal Owner Name",
+                                "field_mandatory": "",
+                                "field_placeholder": "",
+                                "field_type": "text",
+                                "field_value": ""
+                            },
+                            {
+                                "field_id": "registered_keeper_be_the_policyholder",
+                                "field_label": "Will the Registered Keeper be the policyholder?",
+                                "field_mandatory": "",
+                                "field_type": "radio",
+                                "field_value": "",
+                                "errors": "",
+                                "field_options": [
+                                    {
+                                        "option_label": "Yes, I will be the Policy Holder"
+                                    },
+                                    {
+                                        "option_label": "No, the Legal Owner will be the Policy Holder"
+                                    }
+                                ]
+                            }   
+                        ]
+                    }   
+                ]
+            }
+
+        ]
+        
+    }
+]
